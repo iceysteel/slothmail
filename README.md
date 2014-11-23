@@ -1,6 +1,6 @@
 # ListBadger
 
-The best tool for cleaning your email lists
+The best tool for cleaning YOur email lists.
 
 ## Links:
 
