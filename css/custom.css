@@ -1,22 +1,45 @@
-html {
-	background-color: #1abc9c;
-}
-#abovefold {
-    height: 400px;
+body {
+    font-family: "Open Sans";
     background-color: #1abc9c;
-    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#abovefold {
+    height: 430px;
+    background-color: #1abc9c;
 }
 
 #abovefold-container {
     max-width: 600px;
     margin: 25px auto;
-    
 }
 
 #belowfold {
     background-color: white;
     height: 200px;
 }
+
 #belowfold-container {
     width: 90%;
     margin: 25px 20%;
@@ -28,7 +51,9 @@ html {
 }
 
 #footer-container {
-    
+    width: 90%;
+    margin: 0 1%;
+    padding-top: 1%;
 }
 
 #leftdiv {
@@ -53,6 +78,7 @@ html {
     font-weight:lighter;
     font-size: 37px;  
     margin-bottom: 40px;
+    padding-top: 20px;
 }
 #login-name {
     cursor: auto; 
