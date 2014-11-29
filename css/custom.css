@@ -32,18 +32,48 @@ a:active {
 
 #abovefold-container {
     max-width: 600px;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 
 #belowfold {
     background-color: white;
-    height: 200px;
+    border-bottom: 1px solid #dfe2e3;
+    display: block;
 }
 
 #belowfold-container {
-    width: 90%;
     margin: 25px 20%;
+    padding-top:50px;
+    padding-bottom:20px;
 }
+
+.third
+{
+    float:left; width:150px; margin-right:20%;
+}
+
+#explainer {
+    background-color: white;
+    border-bottom: 1px solid #dfe2e3;
+    display:block;
+}
+#explainer-container {
+    margin: 25px 20%;
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 90%;
+    height: 220px;
+}
+
+.second {
+    float:left;   
+    margin-right: 10%;
+    width:400px;
+}
+ul {
+    list-style: none;
+}
+
 
 #footer {
     background-color: #16a085;
