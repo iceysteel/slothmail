@@ -43,7 +43,6 @@ a:active {
 
 #belowfold-container {
     margin: 25px 20%;
-    padding-top:50px;
     padding-bottom:20px;
 }
 
@@ -73,7 +72,6 @@ a:active {
 ul {
     list-style: none;
 }
-
 
 #footer {
     background-color: #16a085;
