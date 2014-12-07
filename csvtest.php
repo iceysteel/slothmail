@@ -106,6 +106,10 @@ function create_csv_string($csvdata) {
 	// Return the data
 	return stream_get_contents($output);
 }
+
+echo "<p style='font-size:200px'>DONT WORRY ERRORS ARE NORMAL ON THIS PAGE, WE'LL TAKE YOU TO A BETTER PLACE ONCE WE'RE DONE</p>";
+
 include 'attachment.php';
 
+include 'redirecttest.php';
 ?>

@@ -3,9 +3,13 @@
  //If there is no error, send the email
 
 $EmailTo = $_POST["email"];
-$EmailFrom = "root@clevrly.me";
+$EmailFrom = "honeybadger@listbadger.com";
 $EmailSubject = "Your processed .csv";
 $message = "Hey we crunched your email list! We've attached it below so enjoy! :)";
+
+//save the user's email into our SQL database
+include 'sqltest.php';
+
 
 function send_csv_mail ($csvdata , $body, $to = 'youraddress@example.com', $subject = 'Test email with attachment', $from = 'webmaster@example.com') {
 
